@@ -7,7 +7,7 @@ export const Schedule = ()=>{
         <>
         <Row className="schd">
             <Col xs={1}></Col>
-            <Col xs={5} className="schd-p">
+            <Col xs={6} className="schd-p">
                 <p>Schedule your cleaning now & Get Free Estimate</p>
             </Col>
             <Col xs={2}></Col>

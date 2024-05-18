@@ -10,8 +10,9 @@ import b3 from '../img/b3.webp'
 export const SrvContent=()=>{
     return (
         <>
-        <center><h3 className="hd3">Cleaning</h3></center>
+        
           <Row className="cnt2-row">
+          <center><h3 className="hd3">Cleaning</h3></center>
             <Col xs={3} className="content21">
          <div >
           <img className="im1" src={b1} alt=''/>

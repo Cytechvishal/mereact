@@ -6,6 +6,7 @@ import { Abtschedule } from "./about/abtschd";
 import { Abtexpert } from "./about/abtexpert";
 import { Booter } from "./footer";
 import { AutoplayCarousel } from "./AutoplayCarousel";
+import { Wehave } from "./about/wehave";
 
 
 export const About=()=>{
@@ -18,6 +19,7 @@ export const About=()=>{
     <Abtpromise />
     <Abtschedule />
     <Abtexpert />
+    <Wehave />
     <AutoplayCarousel />
     <Booter />
     </>

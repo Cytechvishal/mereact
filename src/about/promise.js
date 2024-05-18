@@ -8,8 +8,9 @@ import { FaHands } from "react-icons/fa";
 export const Abtpromise =()=>{
     return(
         <>
-     <center>  <h1>We Promise You</h1></center> 
+     
      <Row className="prow">
+     <center>  <h1>We Promise You</h1></center> 
         <Col xs={2} className="picon">
            <span className="aqua"> <FaMedal /><br /></span>
             <p>Professional Quality Guarantee</p>

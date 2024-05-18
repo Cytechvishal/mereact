@@ -6,12 +6,13 @@ import { Btn1 } from "./main2btn";
 import { M3content } from "./main3";
 import { Certificate } from "./certificate";
 import { Schedule } from "./schedule";
-import { MapComponent } from "./map";
+
 import { Booter } from "./footer";
 
 import { h } from "./daata";
-import {cars} from './daata'
-import { CarsAgain } from "./daata";
+import {Service} from './daata'
+import MapComponent from "./map";
+
 
 export const Home=()=>{
    
@@ -22,7 +23,7 @@ export const Home=()=>{
 
         <Car />
 
-        <Content  h0={h} dd={cars} ddd={CarsAgain}  />
+        <Content  h0={h} dd={Service}   />
         <Content2 />
         <Btn1 data1="Explore more " data2="services" />
         <M3content />
@@ -30,7 +31,7 @@ export const Home=()=>{
         <Certificate />
        <Schedule />
 
-       <MapComponent />
+      <MapComponent />
        <Booter />
 
        

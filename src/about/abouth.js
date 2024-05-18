@@ -11,7 +11,7 @@ export const AbtHeading=()=>{
         </h1></center>
         </Row>
 
-<Me />
+{/* <Me /> */}
 
         </>
     )

@@ -11,6 +11,7 @@ export const M3content=()=>{
         <>
         
           <Row className="cntnr1">
+          
             <Col xs={1}></Col>
             <Col xs={5} className="content1">
             <div className="M3content-txt">
@@ -31,6 +32,7 @@ export const M3content=()=>{
               </div>
                 
             </Col>
+            
           </Row>
           
         

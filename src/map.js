@@ -1,20 +1,10 @@
-// MapComponent.js
-
 import React from 'react';
 
-export const MapComponent = () => {
-  return (
-    <iframe
-      width="600"
-      height="450"
-      style={{ border: 0, marginTop:15 }}
-      loading="lazy"
-      allowFullScreen
-      referrerPolicy="no-referrer-when-downgrade"
-      src={`https://www.google.com/maps/place/J.P.+Tech+Institute+-+Best+Computer+Institute%2FBest+Tally+Institute%2FO+Level%2FFull+Stack+Development%2FHardware+%26+Networking/@28.8215256,78.7831742,15z/data=!4m6!3m5!1s0x390afbb02256b2c3:0x735c8a566007b885!8m2!3d28.8215256!4d78.7831742!16s%2Fg%2F11ckvwvkm1?entry=ttu`}
-      title="Map"
-    ></iframe>
-  );
-};
 
+const MapComponent = ({ text }) => (
+  <div className='mapcontent'>
+    <iframe style={{ height: '50vh', width: '100vw' }} src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13982.32830879452!2d78.7831742!3d28.8215256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390afbb02256b2c3%3A0x735c8a566007b885!2sJ.P.%20Tech%20Institute%20-%20Best%20Computer%20Institute%2FBest%20Tally%20Institute%2FO%20Level%2FFull%20Stack%20Development%2FHardware%20%26%20Networking!5e0!3m2!1sen!2sin!4v1715311597650!5m2!1sen!2sin"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
+  </div>
+);
 
+export default MapComponent;

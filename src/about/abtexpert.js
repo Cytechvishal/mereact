@@ -10,8 +10,8 @@ export const Abtexpert=()=>{
         <Row className="abtexp">
             
             <Col xs={5} className="abtexp2">
-               <center> <h2>Our Cleaning Experts</h2>
-                <p>Our cleaning experts are more than just professionals – they’re dedicated individuals with years of experience and a passion for delivering exceptional service..</p></center>
+               <h2 className="hd3">Our Cleaning Experts</h2>
+                <p>Our cleaning experts are more than just professionals – they’re dedicated individuals with years of experience and a passion for delivering exceptional service..</p>
                 <p>
                 <FaCheck/> <span>Customized Cleaning Solutions</span><br />
           <FaCheck/> <span>Reliability and Consistency</span><br />

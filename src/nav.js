@@ -14,7 +14,7 @@ export const Nav=()=>{
                 </Link>
             </li>
             <li>
-                <Link className="my-path" to='/' >Home</Link>
+                <Link className="my-path " to='/' >Home</Link>
             </li>
             <li>
                 <Link className="my-path" to='/about' >About</Link>

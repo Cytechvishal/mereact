@@ -28,7 +28,7 @@ export const Content=(props)=>{
                     props.dd.map((c)=>{
                       return(
                         <>
-                        <li>I am {c}</li>
+                        <li>I am provide {c}</li>
                         </>
                       )
                     })
@@ -36,7 +36,7 @@ export const Content=(props)=>{
                 </ul>
               }
 
-              {
+              {/* {
                 <ul>
                   {
                     props.ddd.map((b)=>{
@@ -48,7 +48,7 @@ export const Content=(props)=>{
                     })
                   }
                 </ul>
-              }
+              } */}
                 
             </div>
             <div className="content-text">
